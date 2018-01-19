@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  font-size: 2rem;
+}
+.left-column {
+  float: left;
+  width: 33.33%;
+}
+.left-column ul {
+  list-style-type: none;
+}
+.left-column li {
+  padding: 15px;
+}
+.right-column {
+  float: right;
+  width: 66.67%;
+}
+.right-column div{
+  padding: 15px;
+  display: none;
+}
+.right-column div:target {
+display: block;
+padding: 15px;
+}
+#heading {
+  padding: 15px;
+  display: block;
+}
+.clearfix {
+  overflow: auto;
+}
